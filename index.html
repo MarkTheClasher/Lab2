@@ -44,7 +44,7 @@
             </div>
             <span>Special Anniversary Events</span>
             <span>XiangLing Cooking Adventure</span>
-            <span><h3>Moonchase</span>
+            <span>Moonchase</span>
             <h2 id="New">New</h2>
             <p>
                 Regarding the events of the anniversary, it has been duly noted that anniversary rewards were insufficient.  <br>To compensate, we will gift a <em>free standard banner 5 star to every player</em>.
@@ -52,7 +52,6 @@
             <span>Upon further inspection Aloy may need to be completely overhauled stay genuine to Horizon Zero Dawn</span>
             <b>Additionally Zhongli and Ganyu will receive slight nerfs to their respective elemental damage output.</b>
             <h3>Comments and Questions</h3>
-
         </main>
         <section>
             <i>Note: these proposals are by no means final and will require through discussion.</i>
@@ -60,10 +59,10 @@
         </section>
         <hr />
         <audio controls>
-            <source src="Space is The Place For Me.wav" type=audio/wav>
+            <source src="Space is The Place For Me.wav" type="audio/wav">
         </audio>
         <video width="320" height="180" controls>
-            <source src="Genshin Impact 2021-09-28 01-22-39.mp4" type=video/mp4>
+            <source src="Genshin Impact 2021-09-28 01-22-39.mp4" type="video/mp4">
         </video>
         <details>
             <summary>Conclusion</summary>
@@ -71,6 +70,56 @@
         </details>
         <footer>
             <b>for more information visit <a href="https://genshin.mihoyo.com/en/news">GenshinImpactOfficial</a> </b>
+            <form>
+                <label for="concerns">Concerns:</label><br>
+                <input type="text" id="concerns" name="concerns"><br>
+                <input type="checkbox" id="q1" name="q1" value="Satisfied"><br>
+                <label for="q1"> Were you satisfied with version 2.1</label><br>
+                <p>
+                    How much were you satisfied:<br>
+                    <input type="radio" name="satisfaction" value="1"> 1<br>
+                    <input type="radio" name="satisfaction" value="2"> 2<br>
+                    <input type="radio" name="satisfaction" value="3"> 3<br>
+                    <input type="radio" name="satisfaction" value="4"> 4<br>
+                </p>
+                <button type="submit" value="submit">Submit</button>
+                <label for="review">Leave us comments and concerns here:</label>
+                <textarea id="review" name="review" rows="7" cols="70">
+                    Here is a sample review.  Genshin Impact is an amazing fantasy 3d open world action adventure rpg.    
+                </textarea>
+
+                <fieldset>
+                    <legend>Choose your favorite 4 star character</legend>
+                    <input type="radio" id="Beidou" name=char>
+                    <label for="Beidou">Beidou</label><br>
+
+                    <input type="radio" id="Ningguang" name=char>
+                    <label for="Ningguang">Ningguang</label><br>
+
+                    <input type="radio" id="Fischl" name=char>
+                    <label for="Fishcl">Fischl</label><br>
+                    
+                </fieldset>
+
+                <label for="2.2live">Version 2.2 will go live on: </label><br>
+                <input type="date" id="2.2live" name="2.2live" value="10/10/2021">  
+                
+            </form>
+            <label for="Events">Choose your most memorable event:</label>
+            <select id="Events">
+                <option value="Moonchase">Moonchase</option>
+                <option vlaue="LanternRite">Lantern Rite</option>
+                <option value="MidSummerAdventure>">MidSummerAdventure</option>
+            </select>
+
+            <label for="favchar">Who's your favorite 5 star character:</label>
+            <input list="favchar" id="favchar" name="favchar" />
+            <datalist id="favchar">
+                <option value="Childe"></option>
+                <option value="ZhongLi"></option>
+                <option value="Raiden Shogun"></option>
+            </datalist>
+        
         </footer>
         
     </body>
